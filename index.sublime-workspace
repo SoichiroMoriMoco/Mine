@@ -1,0 +1,376 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"nav",
+				"nav\tTag"
+			],
+			[
+				"hea",
+				"header\tTag"
+			],
+			[
+				"ar",
+				"article\t<article>"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/E/data/study/デイトラ/繝・ｙ繧､繝医Λ/index.html",
+			"settings":
+			{
+				"buffer_size": 446,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/E/data/study/ポートフォリオサイト構成.txt",
+			"settings":
+			{
+				"buffer_size": 195,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "ポートフォリオサイト構成"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Install Package Control",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 157.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/E/data/study/html"
+	],
+	"file_history":
+	[
+		"/E/data/study/html/index.php",
+		"/E/data/study/デイトラ/繝・ｙ繧､繝医Λ/index.html",
+		"/E/data/study/デイトラ/繝・ｙ繧､繝医Λ/css/style.css",
+		"/E/data/study/デイトラ/繝・ｙ繧､繝医Λ/css/reset.css",
+		"/E/data/study/html/.htaccess",
+		"/E/data/study/html/.htpasswd",
+		"/E/data/study/html/index.html",
+		"/E/data/study/book/html5-css3design/html5-css3design/chapter2/c02-02/index.html",
+		"/E/data/youtube/morinoie/pjt/210204_購入品と質問解凍/SUB）購入品を一気に開封しながらQ&A。ものを買う時の優先順位は？_最近はまっていることは？【便利グッズ・インテリア】_英語.srt",
+		"/E/data/Fx/環境認識.txt",
+		"/E/data/Fx/【検証】環境認識.txt",
+		"/E/data/youtube/morinoie/pjt/210122_100均購入品/SUB【ダイソー購入品を使う】中身が見える保存容器でお茶を整理収納。洗ってそのまま干せるマスク洗濯ネット、小物収納に便利なケース、カラフルに光るアロマディフューザーなど_英語.srt",
+		"/E/data/youtube/morinoie/pjt/210115_無印購入品/SUB【無印良品購入品を使う】分解して洗えるキッチンバサミ_半分の厚みで収納できるキャリーケース_シンプルで使いやすいキッチンタイマー_2021年手帳など_MUJI_英語.srt",
+		"/C/Users/Owner/Desktop/惣一郎が死んだ場合.txt",
+		"/E/data/Fx/チャートパターン/トレーディングビュー画面キャプチャURLメモ.txt",
+		"/E/data/youtube/morinoie/pjt/210105_模様替え/SUB【リビング模様替え】ボロボロのソファを買い換え、おしゃれな丸型こたつを購入。くつろぎスペースを北欧風インテリアで一新する_英語.srt",
+		"/E/data/youtube/morinoie/pjt/201222_muji買ってよかった/SUB【2020年】無印良品・ニトリ買ってよかったもの7選_洗面台下収納にぴったりのボックス_ポケットがないバッグも整えられるバッグインバッグなど_英語.srt",
+		"/E/data/youtube/morinoie/pjt/201218_キッチン大掃除/【キッチン大掃除をする日】一年の溜まった汚れを掃除。レンジフードの油汚れ、ホコリを拭き掃除、シンクの水垢・排水口など_英語.srt",
+		"/E/data/youtube/morinoie/pjt/201203_100均買ってよかった/SUB)【2020年下半期】買って使ってよかった！100均アイテムランキングBEST10 _ セリア・ダイソー_英語.srt",
+		"/C/Users/Owner/Desktop/カード申し込み.txt",
+		"/E/data/youtube/morinoie/pjt/201127_amazon楽天/【2020年】Amazon・楽天 買って使ってよかったアイテム7選_英語.srt",
+		"/C/Users/Owner/Desktop/rogin.txt",
+		"/E/data/Fx/トレードルール.txt",
+		"/C/Users/Owner/Desktop/クラウドワークスプロフィール.txt",
+		"/E/data/Fx/当日トレンドメモ.txt",
+		"/E/data/youtube/morinoie/pjt/201116_100均/SUB【100均 収納が整う・家事が楽になる】収納ボックスを自由に仕切れるアイテム、冷凍庫収納に便利なスライド式スタンド、洗濯物が一度に取り外せるピンチハンガーなど_英語.srt",
+		"/E/data/youtube/morinoie/pjt/201113_カインズ/カインズの組み立て簡単DIYキットをシンプル・インダストリアル風にアレンジ。おしゃれにディスプレイする【部屋の模様替え】_英語.srt",
+		"/E/data/kabu/デイトレ/2020.11_デイトレノート.txt",
+		"/E/data/kabu/デイトレ/201026_デイトレ予習復習ノート.txt",
+		"/E/data/kabu/デイトレ/201027_デイトレ予習復習ノート.txt",
+		"/E/data/youtube/morinoie/pjt/201018_クローゼット収納まとめ/SUB【クローゼット収納ビフォーアフター】3つのクローゼットを一気に収納。プチプラインテリアを使っておしゃれに変身。100均ケースで洋服収納_英語.srt",
+		"/E/data/youtube/morinoie/pjt/201014_セリア購入品/SUB【セリア購入品を使う】薬味チューブをスッキリ収納できるポケット、ハンカチスタンドで立てる収納いろいろ、書類整理に便利なドキュメントスタンドなど_英語.srt",
+		"/E/data/kabu/分散方式メモ.txt",
+		"/E/data/kabu/株ノート.txt",
+		"/E/data/youtube/morinoie/pjt/201007_iphon/【iPhoneの中身】ホーム画面を整理しながら、シンプル×おしゃれにカタイマイズする。おしゃれな素材が無料で使えるサイトやアプリも［iOS14］_英語.srt",
+		"/E/data/youtube/morinoie/pjt/200930_家事を片付ける/SUB【掃除・家事・猫】100均アイテムで暮らしを整える、ラグやスニーカーを洗濯、キャットタワー掃除 _ 主婦の日常_英語.srt",
+		"/E/data/youtube/morinoie/pjt/200923_ダイソー購入品/SUB【ダイソー購入品を使う】スタイリッシュな腕時計や収納にも使えるおしゃれなメガネケース、コンパクトなカードミラーとカード収納ケースでバッグの中身を軽量化_英語.srt",
+		"/E/data/youtube/morinoie/pjt/200917_seria購入品/SUB【セリア購入品を使う】シンプルでおしゃれな2021年カレンダー、洗って拭けるセルローズスポンジ、簡単に厚くて猫型パンケーキが作れるモールド、地味に便利なアイテムなど_英語.srt",
+		"/E/data/kabu/ここ数日ウォッチリスト.txt",
+		"/E/data/youtube/morinoie/pjt/200910_PC配線整理/【配線整理】ケーブルトレーでパソコンのぐちゃぐちゃなコードをスッキリ整理。床に何もない配線で掃除も楽に！_英語.srt",
+		"/E/data/youtube/morinoie/pjt/200905_ニトリ購入品/【ニトリ購入品を使う】コンパクト収納ができる畳めるバケツや掃除がはかどる便利グッズ、滑らないトレー、軽量食器など_英語.srt",
+		"/E/data/youtube/morinoie/書籍/02_ルームツアー/記事メモ２.txt",
+		"/E/data/youtube/morinoie/書籍/02_ルームツアー/記事メモ.txt",
+		"/E/data/youtube/morinoie/案件/ムクリ/記事内容.txt",
+		"/E/data/youtube/morinoie/案件/ムクリ/ムクリ提出記事.txt",
+		"/E/data/youtube/kozin/pjt/200825_ルームツアー２/概要欄.txt",
+		"/E/data/youtube/morinoie/pjt/200823_ギャラクシー/ギャラクシー修正.txt",
+		"/E/data/youtube/morinoie/pjt/200817_寝室掃除/【お掃除ルーティン】寝室を掃除する _ 夏を利用したカーテン洗濯_掃除したくなる _ Clean with me _ 主婦の日常_英語.srt",
+		"/E/data/youtube/morinoie/pjt/200813_小さな家事/【主婦の日常】家事ルーティン_溜まった家事と散らかった部屋をまとめて片付ける_英語.srt",
+		"/E/data/youtube/kozin/構成/200729_キーワード分析.txt",
+		"/E/data/youtube/kozin/pjt/200803_クローゼット第三弾/英語.mp4.srt",
+		"/E/data/youtube/kozin/pjt/200803_クローゼット第三弾/スペイン語.mp4.srt",
+		"/E/data/youtube/morinoie/pjt/200805_ダイソー購入品/SUB【ダイソー購入品を使う】キッチン収納に便利なタワー風ワンキッチンシリーズ、ワンプッシュで開閉できる保存容器、ミニ扇風機など、新商品多め_英語.srt",
+		"/E/data/youtube/morinoie/pjt/200718_洗面台下/SUB【洗面台下収納】ニトリの収納ケースで無駄なくスッキリ整理！引き出し収納で使いやすく見直し_英語.srt",
+		"/E/data/youtube/morinoie/pjt/200723_エンジェルプレート/【100均キッチングッズ】エンジェルプレートで作る5つのレシピ_英語.srt",
+		"/E/data/youtube/morinoie/pjt/200717_キッチン収納まとめ/SUB【キッチン収納ビフォーアフターまとめ】シンク下・冷蔵庫・食器・調理器具・調味料・フライパン・食品ストックを100均と無印アイテムで一気に収納_英語.srt",
+		"/E/data/youtube/morinoie/pjt/200709_エコバッグ/スペイン語.mp4.srt",
+		"/E/data/youtube/morinoie/pjt/200704_上半期買ってよかった/SUB)【2020年上半期】買って使ってよかった！100均アイテムランキング BEST8 _ ダイソー・セリア_英語.srt",
+		"/E/data/youtube/morinoie/pjt/200709_エコバッグ/ロシア語.mp4.srt",
+		"/E/data/youtube/morinoie/pjt/200709_エコバッグ/【エコバッグを試す】2WAYハンカチバッグ _ 胸ポケットに入るモッテル _ 簡単にたためるシュパット _ リュックにできるレジカゴバッグ_英語.srt",
+		"/E/data/hobby/バンドスコア購入番号.txt",
+		"/E/data/youtube/morinoie/分析/200624_分析/これからのトレンドを予測する.txt",
+		"/E/data/youtube/morinoie/分析/200624_分析/国内（韓国含む）トレンド調査.txt",
+		"/E/data/youtube/morinoie/分析/200624_分析/メモ.txt",
+		"/E/data/youtube/assets/motionelements/12184116_MotionElements_lower-thirds-mogrt/Lower Thirds/Fonts/Links.txt",
+		"/E/data/youtube/morinoie/KOL/紹介動画/素材提出/素材提出/自己紹介.txt",
+		"/C/Users/Owner/Desktop/みはしショップ注文履歴.txt",
+		"/C/Users/Owner/Desktop/英語勉強時間.txt",
+		"/C/Users/Owner/Desktop/第8条がちょっと気になる.txt",
+		"/E/data/youtube/kozin/構成/200327_レンガ壁＆エアコンルーバー動画の構成案",
+		"/C/Users/Owner/Desktop/お金管理メモ.txt",
+		"/E/data/youtube/morinoie/案件/マネーフォワード様/構成案.txt",
+		"/E/data/youtube/pjt/200216_kozin_02/ロシア語.mp4.srt",
+		"/E/data/youtube/pjt/200128_kozin_01/中国語.mp4.srt",
+		"/E/data/youtube/pjt/200128_kozin_01/英語.mp4.srt",
+		"/E/data/youtube/pjt/200128_kozin_01/B27A9969.mp4.srt",
+		"/E/data/youtube/pjt/200128_kozin_01/B27A9969_2.mp4.srt",
+		"/E/data/youtube/pjt/200128_kozin_01/B27A9969_3.mp4.srt",
+		"/E/data/youtube/pjt/200128_kozin_01/B27A9969_1.mp4.srt",
+		"/E/data/youtube/morinoie/translation/200208_100均一　マルセイユ石鹸等/【ダイソー購入品を使う】便利な自動開閉ボトルキャップ_モノトーン裁縫セット ラフィネクチュール_履くだけお掃除スリッパ_かわいい猫ミラー_帰ってきたマルセイユ石鹸など_スペイン語.srt",
+		"/E/data/youtube/memo/ねこねた.txt",
+		"/E/data/youtube/memo/実写チャンネル紹介文.txt",
+		"/C/Users/Owner/Documents/Games/Project3/js/rpg_objects.js",
+		"/E/data/youtube/memo/game/そのほかのネタ帳.txt",
+		"/E/data/youtube/memo/game/シティーズスカイラインネタ帳.txt",
+		"/E/data/youtube/memo/TODOリスト.txt",
+		"/E/data/youtube/game/Script/191211_cities_07.txt",
+		"/E/data/youtube/game/Script/191211_cities_05.txt",
+		"/E/data/youtube/game/Script/191211_cities_06.txt",
+		"/E/data/youtube/game/Script/191211_cities_03.txt",
+		"/E/data/youtube/game/Script/191211_cities_02.txt",
+		"/E/data/youtube/game/Script/191211_cities_01"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/E/data/study/デイトラ/繝・ｙ繧､繝医Λ/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 446,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								186,
+								186
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/E/data/study/ポートフォリオサイト構成.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 195,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								181,
+								181
+							]
+						],
+						"settings":
+						{
+							"auto_name": "ポートフォリオサイト構成",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

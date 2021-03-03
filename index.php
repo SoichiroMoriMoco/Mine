@@ -10,7 +10,6 @@
 			<section>
 				<h1>久しぶりのHTMLコーディングです。</h1>
 				<p>こんにちは森惣一郎です。コーディング久々すぎわろた</p>
-				<?php echo __FILE__; ?>
 			</section>
 		</article>
 	</body>
