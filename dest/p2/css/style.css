@@ -26,7 +26,7 @@ h2 {
 p {
 	font-size: 0.9rem;
 	text-align: left;
-	line-height: 20px;
+	line-height: 1.4;
 /*	letter-spacing: -1px; */
 }
 
@@ -189,7 +189,7 @@ section.section-3 input.button {
 	padding: 12px 59px;   /* 余白       */
 	background: #ec6d64;     /* 背景色     */
 	color: #ffffff;     /* 文字色     */
-	line-height: 1em;         /* 1行の高さ  */
+	line-height: 1;         /* 1行の高さ  */
 	transition: .3s;         /* なめらか変化 */
 	border: 2px solid #ec6d64;    /* 枠の指定 */
 }

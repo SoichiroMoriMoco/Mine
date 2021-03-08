@@ -1,0 +1,13 @@
+#content {
+  width: 100px;
+}
+
+#content p, #content div {
+  font-size: 5em;
+}
+
+#content p a, #content div a {
+  font-weight: 700;
+  font-size: 10em;
+  color: #000;
+}
