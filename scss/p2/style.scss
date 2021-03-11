@@ -1,12 +1,4 @@
-#content {
-	width: 100px;
-
-	p, div {
-		font-size: 5em;
-		a {
-			font-weight: 700;
-			font-size: 10em;
-			color: #000;			
-		}
-	}
-}
+@import "../common/reset";
+@import "../common/fonts";
+@import "../common/common-style";
+@import "main";

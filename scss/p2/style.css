@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*================================================================
 Chrome/Firefox/Edgeなど、各ブラウザはそれぞれデフォルトで効くCSSを持っています。
 何もしないと見え方が微妙に変わるので、デフォルトのCSSをリセットして
@@ -21,65 +22,100 @@ time, mark, audio, video {
   font-size: 100%;
   margin: 0;
   padding: 0;
-  vertical-align: baseline;
-}
+  vertical-align: baseline; }
 
 html {
-  line-height: 1;
-}
+  line-height: 1; }
 
 ol, ul {
-  list-style: none;
-}
+  list-style: none; }
 
 li, dd {
-  list-style-type: none;
-}
+  list-style-type: none; }
 
 table {
   border-collapse: collapse;
-  border-spacing: 0;
-}
+  border-spacing: 0; }
 
 caption, th, td {
   font-weight: normal;
   text-align: left;
-  vertical-align: middle;
-}
+  vertical-align: middle; }
 
 q, blockquote {
-  quotes: none;
-}
+  quotes: none; }
 
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
-  content: none;
-}
+  content: none; }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
-  display: block;
-}
+  display: block; }
 
 img {
   border: none;
-  vertical-align: bottom;
-}
+  vertical-align: bottom; }
 
 a {
-  text-decoration: none;
-}
+  text-decoration: none; }
 
 a:active {
   color: #000;
-  text-decoration: none;
-}
+  text-decoration: none; }
 
 a:focus {
   outline: none;
-  text-decoration: none;
-}
+  text-decoration: none; }
 
 a:visited {
   color: #000;
-  text-decoration: none;
-}
+  text-decoration: none; }
+
+body {
+  font-family: 'Noto Sans JP', sans-serif; }
+
+/*サイト内全共通スタイル*/
+body {
+  margin: 0 auto;
+  font-weight: 400; }
+
+img {
+  width: 100%; }
+
+h1,
+h2,
+h3 {
+  font-weight: 700; }
+
+.storong-1 {
+  font-weight: 900; }
+
+.storong-2 {
+  font-weight: 700; }
+
+.thin-1 {
+  font-weight: 300; }
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 110%; }
+
+  .display-pc {
+    display: none; } }
+@media screen and (min-width: 769px) {
+  html {
+    font-size: 100%; }
+
+  .display-sp {
+    display: none; } }
+/*共通*/
+body {
+  border-top: 10px solid #6CC6C4; }
+
+@media screen and (max-width: 768px) {
+  header > div .img-contain {
+    margin: 0 auto;
+    width: 260px; }
+  header > div .tel-contain {
+    width: 220px;
+    margin: 0 auto; } }

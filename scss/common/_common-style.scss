@@ -1,0 +1,57 @@
+@charset "utf-8";
+/*サイト内全共通スタイル*/
+
+body {
+	margin: 0 auto;
+	font-weight: 400;
+}
+
+img {
+	width: 100%;
+}
+
+h1,
+h2,
+h3 {
+	font-weight: 700
+}
+
+.storong-1 {
+	font: {
+		weight: 900;
+	}
+}
+
+.storong-2 {
+	font: {
+		weight: 700;
+	}
+}
+
+.thin-1 {
+	font: {
+		weight: 300;
+	}
+}
+
+@media screen and (max-width: 768px) {
+
+	html {
+		font-size: 110%;
+	}
+
+	.display-pc {
+		display: none;
+	}
+}
+
+@media screen and(min-width: 769px) {
+
+	html {
+		font-size: 100%;
+	}
+
+	.display-sp {
+		display: none;
+	}
+}

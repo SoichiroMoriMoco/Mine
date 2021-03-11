@@ -1,13 +1,152 @@
-#content {
-  width: 100px;
+@charset "UTF-8";
+/*================================================================
+Chrome/Firefox/Edgeなど、各ブラウザはそれぞれデフォルトで効くCSSを持っています。
+何もしないと見え方が微妙に変わるので、デフォルトのCSSをリセットして
+ブラウザごとの表示の差異をなくすために書くのが「リセットCSS」です。
+================================================================*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, button, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
 }
 
-#content p, #content div {
-  font-size: 5em;
+html {
+  line-height: 1;
 }
 
-#content p a, #content div a {
-  font-weight: 700;
-  font-size: 10em;
+ol, ul {
+  list-style: none;
+}
+
+li, dd {
+  list-style-type: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+caption, th, td {
+  font-weight: normal;
+  text-align: left;
+  vertical-align: middle;
+}
+
+q, blockquote {
+  quotes: none;
+}
+
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+img {
+  border: none;
+  vertical-align: bottom;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:active {
   color: #000;
+  text-decoration: none;
+}
+
+a:focus {
+  outline: none;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #000;
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+/*サイト内全共通スタイル*/
+body {
+  margin: 0 auto;
+  font-weight: 400;
+}
+
+img {
+  width: 100%;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 700;
+}
+
+.storong-1 {
+  font-weight: 900;
+}
+
+.storong-2 {
+  font-weight: 700;
+}
+
+.thin-1 {
+  font-weight: 300;
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 110%;
+  }
+  .display-pc {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  html {
+    font-size: 100%;
+  }
+  .display-sp {
+    display: none;
+  }
+}
+
+/*共通*/
+body {
+  border-top: 10px solid #6CC6C4;
+}
+
+@media screen and (max-width: 768px) {
+  header > div .img-contain {
+    margin: 0 auto;
+    width: 260px;
+  }
+  header > div .tel-contain {
+    width: 220px;
+    margin: 0 auto;
+  }
 }
