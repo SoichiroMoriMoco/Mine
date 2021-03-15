@@ -3,13 +3,17 @@
 
 body {
 	border-top: 10px solid #6CC6C4;
+	background-color: #F6F6F6;
+	color: #515151;
 }
 
 @media screen and (max-width: 768px) {
 
 	header > div {
+		text-align: center;	
+		
 		.img-contain {
-			margin: 0 auto;
+			margin: 3px auto;
 			width: 260px;
 		}
 		
@@ -17,5 +21,127 @@ body {
 			width: 220px;
 			margin: 0 auto;
 		}
+		
+		h1 {
+			font-size: 0.5rem;
+			font-weight: 300;
+			margin: 5px auto;
+		}
+		
+		span.tel {
+			display: block;
+			padding-left: 20px;
+			font-size: 1.5rem;
+			margin: 10px auto;
+			letter-spacing: 0.03em;
+			
+			a {
+				color: #515151;
+			}
+			
+			a:visited {
+				color: #515151;
+			}
+			
+			a:hover {
+				color: #515151;
+			}
+		}
+		
+		span.time {
+			display: block;
+			border: 1px solid #D6D6D6;
+			font-weight: 300;
+			font-size: 0.5rem;
+			padding: 10px 0;
+		}
+	}
+	
+	header nav {
+		margin: 15px auto;
+		
+		ul {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			
+			li {
+				width: 50%;
+				box-sizing: border-box;
+				text-align: center;
+				
+				
+				a {
+					background: linear-gradient(rgb(156,227,225) 0%,rgb(108,198,196) 100%);
+					display: block;
+					padding: 17px 0;
+					border-radius: 5px;
+					
+					&:hover {
+					background: linear-gradient(rgb(108,198,196) 0%,rgb(156,227,225) 100%);
+					}
+				}
+				
+				span {
+					display: block;
+					color: #fff;
+					font-size: 0.8rem;
+				}
+				
+				span:nth-of-type(2) {
+					margin-top: 5px;
+					font-size: 0.5rem;
+				}
+			}
+		}
+	}
+	
+	main {
+		padding: 0 10px;
+	}
+	
+	main section.content {
+		div.top-img {
+			max-width: 640px;
+		}
+		
+		div.news {
+			margin: 7px auto;
+			background-color: #fff;
+			padding: 30px 15px 15px;
+			color: #515151;
+			
+			h3 {
+				padding: 0 0 17px;
+				margin: 0 auto 30px;
+				font-weight: 700;
+				font-size: 0.9rem;
+				border-bottom: 3px solid #6CC6C4;
+			}
+			
+			dl {
+				dt {
+					padding: 10px 0;
+					font-size: 0.76rem;
+					font-weight: 700;
+				}
+				
+				dd {
+					font-size: 0.76rem;
+					font-weight: 300;
+					padding: 10px;
+					border-bottom: 1px dotted #ccc;
+					margin-bottom: 10px;
+					line-height: 1.5;
+				}
+			}
+		}
+	}
+	
+	nav.sidenav {
+		background-color: #fff;
+		> ul > li {
+			border: 1px solid #6CC6C4;
+		} 
 	}
 }

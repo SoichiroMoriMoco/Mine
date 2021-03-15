@@ -110,12 +110,96 @@ h3 {
     display: none; } }
 /*共通*/
 body {
-  border-top: 10px solid #6CC6C4; }
+  border-top: 10px solid #6CC6C4;
+  background-color: #F6F6F6;
+  color: #515151; }
 
 @media screen and (max-width: 768px) {
-  header > div .img-contain {
-    margin: 0 auto;
-    width: 260px; }
-  header > div .tel-contain {
-    width: 220px;
-    margin: 0 auto; } }
+  header > div {
+    text-align: center; }
+    header > div .img-contain {
+      margin: 3px auto;
+      width: 260px; }
+    header > div .tel-contain {
+      width: 220px;
+      margin: 0 auto; }
+    header > div h1 {
+      font-size: 0.5rem;
+      font-weight: 300;
+      margin: 5px auto; }
+    header > div span.tel {
+      display: block;
+      padding-left: 20px;
+      font-size: 1.5rem;
+      margin: 10px auto;
+      letter-spacing: 0.03em; }
+      header > div span.tel a {
+        color: #515151; }
+      header > div span.tel a:visited {
+        color: #515151; }
+      header > div span.tel a:hover {
+        color: #515151; }
+    header > div span.time {
+      display: block;
+      border: 1px solid #D6D6D6;
+      font-weight: 300;
+      font-size: 0.5rem;
+      padding: 10px 0; }
+
+  header nav {
+    margin: 15px auto; }
+    header nav ul {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between; }
+      header nav ul li {
+        width: 50%;
+        box-sizing: border-box;
+        text-align: center; }
+        header nav ul li a {
+          background: linear-gradient(#9ce3e1 0%, #6cc6c4 100%);
+          display: block;
+          padding: 17px 0;
+          border-radius: 5px; }
+          header nav ul li a:hover {
+            background: linear-gradient(#6cc6c4 0%, #9ce3e1 100%); }
+        header nav ul li span {
+          display: block;
+          color: #fff;
+          font-size: 0.8rem; }
+        header nav ul li span:nth-of-type(2) {
+          margin-top: 5px;
+          font-size: 0.5rem; }
+
+  main {
+    padding: 0 10px; }
+
+  main section.content div.top-img {
+    max-width: 640px; }
+  main section.content div.news {
+    margin: 7px auto;
+    background-color: #fff;
+    padding: 30px 15px 15px;
+    color: #515151; }
+    main section.content div.news h3 {
+      padding: 0 0 17px;
+      margin: 0 auto 30px;
+      font-weight: 700;
+      font-size: 0.9rem;
+      border-bottom: 3px solid #6CC6C4; }
+    main section.content div.news dl dt {
+      padding: 10px 0;
+      font-size: 0.76rem;
+      font-weight: 700; }
+    main section.content div.news dl dd {
+      font-size: 0.76rem;
+      font-weight: 300;
+      padding: 10px;
+      border-bottom: 1px dotted #ccc;
+      margin-bottom: 10px;
+      line-height: 1.5; }
+
+  nav.sidenav {
+    background-color: #fff; }
+    nav.sidenav > ul > li {
+      border: 1px solid #6CC6C4; } }
