@@ -1,0 +1,369 @@
+@charset "UTF-8";
+/*================================================================
+Chrome/Firefox/Edgeなど、各ブラウザはそれぞれデフォルトで効くCSSを持っています。
+何もしないと見え方が微妙に変わるので、デフォルトのCSSをリセットして
+ブラウザごとの表示の差異をなくすために書くのが「リセットCSS」です。
+================================================================*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, button, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline; }
+
+html {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+li, dd {
+  list-style-type: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+caption, th, td {
+  font-weight: normal;
+  text-align: left;
+  vertical-align: middle; }
+
+q, blockquote {
+  quotes: none; }
+
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block; }
+
+img {
+  border: none;
+  vertical-align: bottom; }
+
+a {
+  text-decoration: none; }
+
+a:active {
+  color: #000;
+  text-decoration: none; }
+
+a:focus {
+  outline: none;
+  text-decoration: none; }
+
+a:visited {
+  color: #000;
+  text-decoration: none; }
+
+body {
+  font-family: 'Noto Sans JP', sans-serif; }
+
+/*サイト内全共通スタイル*/
+body {
+  margin: 0 auto;
+  font-weight: 400; }
+
+img {
+  width: 100%; }
+
+h1,
+h2,
+h3 {
+  font-weight: 700; }
+
+.storong-1 {
+  font-weight: 900; }
+
+.storong-2 {
+  font-weight: 700; }
+
+.thin-1 {
+  font-weight: 300; }
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 110%; }
+
+  .display-pc {
+    display: none; } }
+@media screen and (min-width: 769px) {
+  html {
+    font-size: 100%; }
+
+  .display-sp {
+    display: none; } }
+/*共通*/
+body {
+  text-align: center; }
+
+h2 {
+  margin: 35px auto;
+  font-size: 1.5rem; }
+
+p {
+  font-size: 0.9rem;
+  text-align: left;
+  line-height: 1.4; }
+
+header > a {
+  font-weight: 700; }
+header a {
+  color: #000; }
+header nav {
+  font-weight: 700; }
+
+header nav ul {
+  display: flex;
+  justify-content: space-around; }
+  header nav ul li {
+    width: 33.33333%; }
+  header nav ul a {
+    display: block; }
+
+section.head {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%; }
+  section.head div {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto; }
+    section.head div h1 {
+      font-size: 2rem;
+      line-height: 1.5; }
+      section.head div h1 span {
+        display: block;
+        margin-top: 15px;
+        font-size: 1rem; }
+
+section.section-1 > div {
+  display: flex;
+  flex-wrap: wrap; }
+  section.section-1 > div > p {
+    box-sizing: border-box; }
+  section.section-1 > div > div {
+    box-sizing: border-box; }
+
+section.section-2 ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+  section.section-2 ul li {
+    box-sizing: border-box; }
+    section.section-2 ul li span {
+      display: block;
+      text-align: left;
+      font-size: 0.9rem;
+      padding: 4px 0; }
+
+section.section-3 p {
+  text-align: center; }
+section.section-3 input {
+  display: block; }
+section.section-3 input.email {
+  width: 65%;
+  margin: 5px auto;
+  padding: 10px;
+  border-style: solid;
+  border-radius: 20px;
+  background-color: #fff;
+  border-color: #d3d3d3; }
+section.section-3 input.email:focus {
+  box-shadow: 0 0 5px 0 #ff9900;
+  border: 2px solid #FFF !important;
+  outline: 0; }
+section.section-3 input.button {
+  margin: 15px auto;
+  display: inline-block;
+  border-radius: 5px;
+  /* 角丸       */
+  font-size: 12pt;
+  /* 文字サイズ */
+  font-weight: 700;
+  text-align: center;
+  /* 文字位置   */
+  cursor: pointer;
+  /* カーソル   */
+  padding: 12px 59px;
+  /* 余白       */
+  background: #ec6d64;
+  /* 背景色     */
+  color: #ffffff;
+  /* 文字色     */
+  line-height: 1;
+  /* 1行の高さ  */
+  transition: .3s;
+  /* なめらか変化 */
+  border: 2px solid #ec6d64;
+  /* 枠の指定 */ }
+section.section-3 input.button:hover {
+  box-shadow: none;
+  /* カーソル時の影消去 */
+  color: #ec6d64;
+  /* 背景色     */
+  background: #ffffff;
+  /* 文字色     */ }
+section.section-3 input.button:active {
+  box-shadow: none;
+  /* カーソル時の影消去 */
+  color: #ec6d64;
+  /* 背景色     */
+  background: #ffffff;
+  border: 2px solid #ec6d64;
+  /* 文字色     */ }
+section.section-3 input.button:focus {
+  box-shadow: none;
+  /* カーソル時の影消去 */
+  color: #ec6d64;
+  /* 背景色     */
+  background: #ffffff;
+  outline: none;
+  /*border: 2px solid #ec6d64; :/    /* 文字色     */ }
+
+/*スマホサイズ*/
+@media screen and (max-width: 768px) {
+  body {
+    max-width: 768px; }
+
+  header {
+    padding: 0 20px; }
+    header > a {
+      display: block;
+      padding: 15px 0;
+      font-size: 1.5rem; }
+
+  header nav ul a {
+    padding: 15px 0; }
+
+  section.head {
+    width: 100%;
+    height: 647px;
+    background: url("/assets/img/p1/main-vsual-nontitle.png") no-repeat left/auto; }
+    section.head div h1 span {
+      font-weight: 400; }
+
+  section.body {
+    padding: 0 30px; }
+
+  section.section-1,
+  section.section-2,
+  section.section-3 {
+    padding-bottom: 50px; }
+
+  section.section-1 > div > p {
+    width: 100%;
+    padding: 20px 0; }
+  section.section-1 > div > div {
+    width: 100%; }
+
+  section.section-2 ul li {
+    width: 100%;
+    margin: 0 0 20px; }
+    section.section-2 ul li span {
+      display: block;
+      text-align: left;
+      font-size: 0.9rem;
+      padding: 4px 0; }
+
+  section.section-3 p {
+    margin: 20px auto; }
+  section.section-3 input.email {
+    width: 75%; }
+  section.section-3 input.email:focus {
+    box-shadow: 0 0 5px 0 #ff9900;
+    border: 2px solid #FFF !important;
+    outline: 0; }
+  section.section-3 input.button {
+    width: 80%;
+    box-sizing: border-box;
+    font-size: 1.5rem;
+    padding: 30px 59px;
+    /* 余白       */ } }
+/*PCサイズ*/
+@media screen and (min-width: 769px) {
+  body {
+    max-width: 1080px; }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 90px; }
+    header > a {
+      display: flex;
+      justify-content: center;
+      padding: 20px 0;
+      width: 20%;
+      font-size: 1.1rem; }
+    header a:hover {
+      transition: 0.3s;
+      opacity: 0.5; }
+    header nav {
+      width: 50%; }
+
+  header nav ul a {
+    padding: 20px 0; }
+
+  section.head {
+    height: 0;
+    padding-top: calc(647 / 2048 * 100%);
+    /* calc(画像高さ ÷ 画像横幅 × 100%) */
+    background: url("/assets/img/p1/main-vsual-nontitle.png") no-repeat center/cover; }
+
+  section.body {
+    padding: 0 100px; }
+
+  section.section-1,
+  section.section-2,
+  section.section-3 {
+    padding-bottom: 30px; }
+
+  section.section-1 > div > p {
+    width: 50%;
+    padding: 0 10px; }
+  section.section-1 > div > div {
+    width: 50%;
+    padding: 0 10px; }
+
+  section.section-2 ul li {
+    width: 33.33333%; }
+    section.section-2 ul li span {
+      display: block;
+      text-align: left;
+      font-size: 0.9rem;
+      padding: 4px 0; }
+  section.section-2 ul li:nth-of-type(1) {
+    padding: 0 20px 0 0; }
+  section.section-2 ul li:nth-of-type(2) {
+    padding: 0 10px 0 10px; }
+  section.section-2 ul li:nth-of-type(3) {
+    padding: 0 0 0 20px; }
+
+  input.email {
+    width: 65%; }
+
+  input.button {
+    font-size: 1rem;
+    /* 文字サイズ */ } }
