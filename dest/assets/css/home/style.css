@@ -137,119 +137,92 @@ h3 {
 }
 
 /*共通*/
-body {
-  border-top: 10px solid #6CC6C4;
-  background-color: #F6F6F6;
-  color: #515151;
+.css-test {
+  width: 1140px;
+  margin: 0 auto;
 }
 
-@media screen and (max-width: 768px) {
-  header > div {
-    text-align: center;
-  }
-  header > div .img-contain {
-    margin: 3px auto;
-    width: 260px;
-  }
-  header > div .tel-contain {
-    width: 220px;
-    margin: 0 auto;
-  }
-  header > div h1 {
-    font-size: 0.5rem;
-    font-weight: 300;
-    margin: 5px auto;
-  }
-  header > div span.tel {
-    display: block;
-    padding-left: 20px;
-    font-size: 1.5rem;
-    margin: 10px auto;
-    letter-spacing: 0.03em;
-  }
-  header > div span.tel a {
-    color: #515151;
-  }
-  header > div span.tel a:visited {
-    color: #515151;
-  }
-  header > div span.tel a:hover {
-    color: #515151;
-  }
-  header > div span.time {
-    display: block;
-    border: 1px solid #D6D6D6;
-    font-weight: 300;
-    font-size: 0.5rem;
-    padding: 10px 0;
-  }
-  header nav {
-    margin: 15px auto;
-  }
-  header nav ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-  header nav ul li {
-    width: 50%;
-    box-sizing: border-box;
-    text-align: center;
-  }
-  header nav ul li a {
-    background: linear-gradient(#9ce3e1 0%, #6cc6c4 100%);
-    display: block;
-    padding: 17px 0;
-    border-radius: 5px;
-  }
-  header nav ul li a:hover {
-    background: linear-gradient(#6cc6c4 0%, #9ce3e1 100%);
-  }
-  header nav ul li span {
-    display: block;
-    color: #fff;
-    font-size: 0.8rem;
-  }
-  header nav ul li span:nth-of-type(2) {
-    margin-top: 5px;
-    font-size: 0.5rem;
-  }
-  main {
-    padding: 0 10px;
-  }
-  main section.content div.top-img {
-    max-width: 640px;
-  }
-  main section.content div.news {
-    margin: 7px auto;
-    background-color: #fff;
-    padding: 30px 15px 15px;
-    color: #515151;
-  }
-  main section.content div.news h3 {
-    padding: 0 0 17px;
-    margin: 0 auto 30px;
-    font-weight: 700;
-    font-size: 0.9rem;
-    border-bottom: 3px solid #6CC6C4;
-  }
-  main section.content div.news dl dt {
-    padding: 10px 0;
-    font-size: 0.76rem;
-    font-weight: 700;
-  }
-  main section.content div.news dl dd {
-    font-size: 0.76rem;
-    font-weight: 300;
-    padding: 10px;
-    border-bottom: 1px dotted #ccc;
-    margin-bottom: 10px;
-    line-height: 1.5;
-  }
-  nav.sidenav {
-    background-color: #fff;
-  }
-  nav.sidenav > ul > li {
-    border: 1px solid #6CC6C4;
-  }
+.css-test__title {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.css-test__flex-container {
+  display: flex;
+  padding: 10px;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+}
+
+.css-test__flex-item {
+  width: 33%;
+  height: 100px;
+  box-sizing: border-box;
+  color: #4d4d4d;
+}
+
+.css-test__flex-item--item01 {
+  background-color: #8c7373;
+}
+
+.css-test__flex-item--item02 {
+  background-color: #bf4040;
+}
+
+.css-test__flex-item--item03 {
+  background-color: #d92626;
+}
+
+.css-test__flex-item--item04 {
+  background-color: red;
+}
+
+.css-test__flex-item--item05 {
+  background-color: #330000;
+}
+
+.css-test__flex-item--item06 {
+  background-color: white;
+}
+
+.css-test__flex-item--item07 {
+  background-color: #77738c;
+}
+
+.css-test__flex-item--item08 {
+  background-color: #5540bf;
+}
+
+.css-test__flex-item--item09 {
+  background-color: #4426d9;
+}
+
+.css-test__flex-item--item10 {
+  background-color: #2b00ff;
+}
+
+.css-test__flex-item--item11 {
+  background-color: #090033;
+}
+
+.css-test__flex-item--item12 {
+  background-color: white;
+}
+
+.css-test__flex-item--item13 {
+  background-color: #981b1b;
+}
+
+.css-test__flex-item--item14 {
+  background-color: #1b9898;
+}
+
+.css-test__flex-item--item15 {
+  background-color: white;
+}
+
+.css-test__vertical-test {
+  writing-mode: vertical-rl;
+  height: 100px;
+  width: 100%;
 }

@@ -1,0 +1,93 @@
+@charset "utf-8";
+
+/*共通*/
+
+.css-test {
+		width: 1140px;
+		margin: 0 auto;	
+	
+	&__title {
+		text-align: center;
+		font-size: 1.5rem;
+	}
+	
+	&__flex-container {
+		display: flex;
+		padding: 10px;
+		box-sizing: border-box;
+		flex-wrap: wrap;
+	}
+	
+	&__flex-item {
+		width: 33%;
+		height: 100px;
+		box-sizing: border-box;
+		color: #4d4d4d;
+		
+		&--item01 {
+			background-color: hsl(0,10%,50%);
+		}
+		
+		&--item02 {
+			background-color: hsl(0,50%,50%);
+		}
+		
+		&--item03 {
+			background-color: hsl(0,70%,50%);
+		}
+		
+		&--item04 {
+			background-color: hsl(0,100%,50%);
+		}
+		
+		&--item05 {
+			background-color: hsl(0,100%,10%);
+		}
+		
+		&--item06 {
+			background-color: hsl(0,100%,100%);
+		}
+		
+		&--item07 {
+			background-color: hsl(250,10%,50%);
+		}
+		
+		&--item08 {
+			background-color: hsl(250,50%,50%);
+		}
+		
+		&--item09 {
+			background-color: hsl(250,70%,50%);
+		}
+		
+		&--item10 {
+			background-color: hsl(250,100%,50%);
+		}
+		
+		&--item11 {
+			background-color: hsl(250,100%,10%);
+		}
+		
+		&--item12 {
+			background-color: hsl(250,100%,100%);
+		}
+		
+		&--item13 {
+			background-color: hsl(0,70%,35%);
+		}
+		
+		&--item14 {
+			background-color: hsl(180,70%,35%);
+		}
+		
+		&--item15 {
+			background-color: hsl(250,100%,100%);
+		}
+	}
+	
+	&__vertical-test {
+		writing-mode: vertical-rl;
+		height: 100px;
+		width: 100%;
+	}
+}
